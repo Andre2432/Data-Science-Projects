@@ -1,0 +1,1810 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1211.1636                               -->
+<workbook original-version='18.1' source-build='2019.4.1 (20194.19.1211.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (classmates)' inline='true' name='federated.1tki6m705w44ny1ejmfi61d8gpq8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='classmates' name='excel-direct.1y3d0qy07czfy91gcw5141n6sum1'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Andre/Desktop/ITEC 485/HW01/classmates.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1y3d0qy07czfy91gcw5141n6sum1' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H31:no:A1:H31:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Class' ordinal='0' />
+            <column datatype='integer' name='ID' ordinal='1' />
+            <column datatype='string' name='Major' ordinal='2' />
+            <column datatype='string' name='Concentration-1' ordinal='3' />
+            <column datatype='string' name='Concentration-2' ordinal='4' />
+            <column datatype='string' name='OS-1' ordinal='5' />
+            <column datatype='string' name='OS-2' ordinal='6' />
+            <column datatype='integer' name='Work Hours per Week' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Class</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Class]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Class</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Major</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Major]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Major</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Concentration-1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Concentration-1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Concentration-1</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Concentration-2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Concentration-2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Concentration-2</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS-1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OS-1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OS-1</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS-2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OS-2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OS-2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work Hours per Week</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Work Hours per Week]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Work Hours per Week</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H31:no:A1:H31:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Class]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Concentration-1]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Concentration-2]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Major]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Os-1' datatype='string' name='[OS-1]' role='dimension' type='nominal' />
+      <column caption='Os-2' datatype='string' name='[OS-2]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Work Hours per Week]' role='measure' type='quantitative' />
+      <column-instance column='[Class]' derivation='Attribute' name='[attr:Class:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Work Hours per Week]' derivation='Avg' name='[avg:Work Hours per Week:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Class]' derivation='Count' name='[cnt:Class:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Class]' derivation='None' name='[none:Class:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Class]' derivation='None' name='[none:Class:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Concentration-1]' derivation='None' name='[none:Concentration-1:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Concentration-2]' derivation='None' name='[none:Concentration-2:nk]' pivot='key' type='nominal' />
+      <column-instance column='[ID]' derivation='None' name='[none:ID:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Major]' derivation='None' name='[none:Major:nk]' pivot='key' type='nominal' />
+      <column-instance column='[OS-1]' derivation='None' name='[none:OS-1:nk]' pivot='key' type='nominal' />
+      <column-instance column='[OS-2]' derivation='None' name='[none:OS-2:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Class]' derivation='Sum' name='[sum:Class:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Work Hours per Week]' derivation='Sum' name='[sum:Work Hours per Week:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Concentration'>
+          <field>[Concentration-1]</field>
+          <field>[Concentration-2]</field>
+        </drill-path>
+        <drill-path name='OS'>
+          <field>[OS-1]</field>
+          <field>[OS-2]</field>
+        </drill-path>
+      </drill-paths>
+      <layout dim-ordering='alphabetic' dim-percentage='0.601145' measure-ordering='alphabetic' measure-percentage='0.398855' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Major:nk]' palette='traffic_light_10_0' type='palette'>
+            <map to='#b60a1c'>
+              <bucket>&quot;CS&quot;</bucket>
+            </map>
+            <map to='#e39802'>
+              <bucket>&quot;IS&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Concentration-1:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Web&quot;</bucket>
+            </map>
+            <map to='#c63541'>
+              <bucket>&quot;Security&quot;</bucket>
+            </map>
+            <map to='#d54a45'>
+              <bucket>&quot;SE&quot;</bucket>
+            </map>
+            <map to='#e25e48'>
+              <bucket>&quot;IS&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;Healthcare&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;CS&quot;</bucket>
+            </map>
+            <map to='#f6b957'>
+              <bucket>&quot;DAIM&quot;</bucket>
+            </map>
+            <map to='#f7874b'>
+              <bucket>&quot;Decision Science&quot;</bucket>
+            </map>
+            <map to='#faa04f'>
+              <bucket>&quot;DB&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Concentration-1:nk]&#10;[none:Major:nk]' type='palette'>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;CS&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;Decision Science&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;SE&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;DB&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;DAIM&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;Security&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;Web&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;IS&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;Healthcare&quot;</bucket>
+            </map-pri>
+          </encoding>
+          <encoding attr='color' field='[none:Major:nk]&#10;[none:Concentration-1:nk]&#10;[none:Concentration-2:nk]&#10;[none:ID:ok]&#10;[none:OS-1:nk]&#10;[none:OS-2:nk]' palette='cyclic_10_0' type='palette'>
+            <map to='#1ba3c6'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>5</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#21ac7c'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>24</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#26afc2'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>8</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#27b495'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>14</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#31a65f'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>2</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#31bcae'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>1</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#32bbbe'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>22</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#41a042'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>6</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#4f7cba'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Web&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>4</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#6976be'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Security&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>18</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#69a833'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>11</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#8471c2'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>29</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#9bb428'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>16</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#a06dc2'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>23</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#bd6bc0'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Healthcare&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>13</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#c4bc21'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>17</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#d86abc'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>&quot;Security&quot;</bucket>
+                <bucket>28</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#ddba21'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>21</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#df302a'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>7</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#e83542'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>12</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#e84e20'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>30</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#e972b4'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>26</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f13a5a'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>20</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f27017'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>10</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f5b921'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>27</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f64d76'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>3</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f88c15'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>19</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f8a31b'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>25</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f97aac'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>9</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#fa6893'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>5</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Concentration-1:nk]&#10;[none:Concentration-2:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <multibucket>
+                <bucket>&quot;Web&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#c12c40'>
+              <multibucket>
+                <bucket>&quot;Security&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#c93a42'>
+              <multibucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#d24644'>
+              <multibucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#db5347'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#e35f48'>
+              <multibucket>
+                <bucket>&quot;Healthcare&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ea6c49'>
+              <multibucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>&quot;Security&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1794a'>
+              <multibucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f4d166'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f5c25c'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f6854b'>
+              <multibucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f7b354'>
+              <multibucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f9a350'>
+              <multibucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#fb944d'>
+              <multibucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:OS-1:nk]&#10;[none:Concentration-1:nk]&#10;[none:Class:ok]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <multibucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Security&quot;</bucket>
+                <bucket>542</bucket>
+              </multibucket>
+            </map>
+            <map to='#325f8c'>
+              <multibucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>542</bucket>
+              </multibucket>
+            </map>
+            <map to='#3a6895'>
+              <multibucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>442</bucket>
+              </multibucket>
+            </map>
+            <map to='#42709e'>
+              <multibucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>485</bucket>
+              </multibucket>
+            </map>
+            <map to='#4878a6'>
+              <multibucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Healthcare&quot;</bucket>
+                <bucket>485</bucket>
+              </multibucket>
+            </map>
+            <map to='#5081ae'>
+              <multibucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>485</bucket>
+              </multibucket>
+            </map>
+            <map to='#598ab6'>
+              <multibucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>442</bucket>
+              </multibucket>
+            </map>
+            <map to='#6293bd'>
+              <multibucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>542</bucket>
+              </multibucket>
+            </map>
+            <map to='#6b9cc4'>
+              <multibucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>493</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a6cc'>
+              <multibucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;Web&quot;</bucket>
+                <bucket>442</bucket>
+              </multibucket>
+            </map>
+            <map to='#7eaed3'>
+              <multibucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>442</bucket>
+              </multibucket>
+            </map>
+            <map to='#88b8da'>
+              <multibucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>542</bucket>
+              </multibucket>
+            </map>
+            <map to='#94c2e1'>
+              <multibucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>442</bucket>
+              </multibucket>
+            </map>
+            <map to='#a0cbe7'>
+              <multibucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>542</bucket>
+              </multibucket>
+            </map>
+            <map to='#acd4ec'>
+              <multibucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>442</bucket>
+              </multibucket>
+            </map>
+            <map to='#b9ddf1'>
+              <multibucket>
+                <bucket>&quot;Linux&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>542</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[attr:Class:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[cnt:Class:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[sum:Class:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[sum:Work Hours per Week:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Major:nk]&#10;[none:Concentration-1:nk]&#10;[none:Concentration-2:nk]&#10;[none:OS-1:nk]&#10;[none:OS-2:nk]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#2f5c89'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#35628f'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#3b6895'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#406d9b'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#4473a1'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;SE&quot;</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#4979a7'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e7fad'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#5485b2'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#5a8bb7'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#6091bc'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#6798c1'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#6d9ec6'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#73a4cb'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#7aaad0'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#80b0d5'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;DB&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#87b7d9'>
+              <multibucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>&quot;CS&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#8fbdde'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Web&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+                <bucket>&quot;Linux&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#97c4e2'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Security&quot;</bucket>
+                <bucket>&quot;DAIM&quot;</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#9fcae6'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>&quot;Mac&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#a7d1ea'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Healthcare&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#b0d7ed'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>&quot;Security&quot;</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#b9ddf1'>
+              <multibucket>
+                <bucket>&quot;IS&quot;</bucket>
+                <bucket>&quot;Decision Science&quot;</bucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Windows&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='BarGraph'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>BarGraph&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (classmates)' name='federated.1tki6m705w44ny1ejmfi61d8gpq8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tki6m705w44ny1ejmfi61d8gpq8'>
+            <column datatype='integer' name='[Class]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Concentration-1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Concentration-2]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Major]' role='dimension' type='nominal' />
+            <column caption='Os-1' datatype='string' name='[OS-1]' role='dimension' type='nominal' />
+            <column caption='Os-2' datatype='string' name='[OS-2]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Work Hours per Week]' role='measure' type='quantitative' />
+            <column-instance column='[Concentration-1]' derivation='Attribute' name='[attr:Concentration-1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Concentration-2]' derivation='Attribute' name='[attr:Concentration-2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OS-1]' derivation='Attribute' name='[attr:OS-1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OS-2]' derivation='Attribute' name='[attr:OS-2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work Hours per Week]' derivation='Avg' name='[avg:Work Hours per Week:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Class]' derivation='None' name='[none:Class:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[ID]' derivation='None' name='[none:ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Major]' derivation='None' name='[none:Major:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]'>
+            <groupfilter function='level-members' level='[none:ID:ok]' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:ok]' direction='ASC' measure-to-sort-by='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:ok]' shelf='rows' />
+            <shelf-sort-v2 dimension-to-sort='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[:Measure Names]</column>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]' />
+              <tooltip column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[attr:OS-1:nk]' />
+              <tooltip column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[attr:OS-2:nk]' />
+              <tooltip column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[attr:Concentration-1:nk]' />
+              <tooltip column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[attr:Concentration-2:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk] / ([federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:ok] / [federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]))</rows>
+        <cols>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]</cols>
+      </table>
+      <simple-id uuid='{0198932C-6FD8-4EFC-803D-BB3B39A3CC29}' />
+    </worksheet>
+    <worksheet name='HighlightTables'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (classmates)' name='federated.1tki6m705w44ny1ejmfi61d8gpq8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tki6m705w44ny1ejmfi61d8gpq8'>
+            <column datatype='integer' name='[Class]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Concentration-1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Concentration-2]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Major]' role='dimension' type='nominal' />
+            <column caption='Os-1' datatype='string' name='[OS-1]' role='dimension' type='nominal' />
+            <column caption='Os-2' datatype='string' name='[OS-2]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Work Hours per Week]' role='measure' type='quantitative' />
+            <column-instance column='[Work Hours per Week]' derivation='Avg' name='[avg:Work Hours per Week:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Class]' derivation='None' name='[none:Class:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Concentration-1]' derivation='None' name='[none:Concentration-1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Concentration-2]' derivation='None' name='[none:Concentration-2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ID]' derivation='None' name='[none:ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Major]' derivation='None' name='[none:Major:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OS-1]' derivation='None' name='[none:OS-1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OS-2]' derivation='None' name='[none:OS-2:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-1:nk]'>
+            <groupfilter function='level-members' level='[none:Concentration-1:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-2:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Concentration-2:nk]' member='%null%' />
+              <groupfilter from='&quot;DAIM&quot;' function='range' level='[none:Concentration-2:nk]' to='&quot;Security&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]'>
+            <groupfilter function='level-members' level='[none:Major:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-1:nk]'>
+            <groupfilter function='level-members' level='[none:OS-1:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-2:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:OS-2:nk]' member='%null%' />
+              <groupfilter from='&quot;Linux&quot;' function='range' level='[none:OS-2:nk]' to='&quot;Windows&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]' shelf='rows' />
+            <shelf-sort-v2 dimension-to-sort='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:ok]' direction='DESC' measure-to-sort-by='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:ok]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]</column>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-1:nk]</column>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-2:nk]</column>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-1:nk]</column>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-2:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]' num-steps='5' palette='tableau-map-blue-green' type='interpolated' />
+            <encoding attr='size-bar' field='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <lod column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]' />
+              <color column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]' />
+              <text column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk] / ([federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-1:nk] / ([federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-2:nk] / ([federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:ok] / [federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]))))</rows>
+        <cols>([federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-1:nk] / [federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-2:nk])</cols>
+      </table>
+      <simple-id uuid='{55DE4823-FD27-40CF-93FC-0F88B96A5128}' />
+    </worksheet>
+    <worksheet name='PieChart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (classmates)' name='federated.1tki6m705w44ny1ejmfi61d8gpq8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tki6m705w44ny1ejmfi61d8gpq8'>
+            <column datatype='integer' name='[Class]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Concentration-1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Concentration-2]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Major]' role='dimension' type='nominal' />
+            <column caption='Os-1' datatype='string' name='[OS-1]' role='dimension' type='nominal' />
+            <column caption='Os-2' datatype='string' name='[OS-2]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Work Hours per Week]' role='measure' type='quantitative' />
+            <column-instance column='[Work Hours per Week]' derivation='Avg' name='[avg:Work Hours per Week:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Class]' derivation='None' name='[none:Class:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Concentration-1]' derivation='None' name='[none:Concentration-1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Concentration-2]' derivation='None' name='[none:Concentration-2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ID]' derivation='None' name='[none:ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Major]' derivation='None' name='[none:Major:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OS-1]' derivation='None' name='[none:OS-1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OS-2]' derivation='None' name='[none:OS-2:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='quantitative' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:qk]' included-values='in-range' />
+          <filter class='categorical' column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]'>
+            <groupfilter function='level-members' level='[none:Major:nk]' />
+          </filter>
+          <manual-sort column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;IS&quot;</bucket>
+              <bucket>&quot;CS&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[:Measure Names]</column>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]</column>
+            <column>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]&#10;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-1:nk]&#10;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-2:nk]&#10;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-1:nk]&#10;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-2:nk]' value='Students'>
+              <formatted-text>
+                <run>Students</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]' />
+              <color column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-1:nk]' />
+              <color column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-2:nk]' />
+              <color column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-1:nk]' />
+              <color column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-2:nk]' />
+              <lod column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]' />
+              <size column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]' />
+              <text column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]' />
+              <text column='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B78A7472-F722-441F-8111-F6FF5BC6025E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='PieChart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]&#10;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-1:nk]&#10;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-2:nk]&#10;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-1:nk]&#10;[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-2:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[:Measure Names]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Class:qk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-1:nk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-2:nk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Major:nk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-1:nk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-2:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4BE992D5-011C-4C15-8D8C-ED9670A05530}' />
+    </window>
+    <window class='worksheet' name='HighlightTables'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='132'>
+            <card pane-specification-id='0' param='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[avg:Work Hours per Week:qk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-1:nk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-2:nk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[sum:Number of Records:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7CF1633F-9F87-428B-8D7C-26ABA260FC3B}' />
+    </window>
+    <window class='worksheet' name='BarGraph'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-1:nk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:Concentration-2:nk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:ID:ok]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-1:nk]</field>
+            <field>[federated.1tki6m705w44ny1ejmfi61d8gpq8].[none:OS-2:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CA0485C6-CEA5-4280-8309-4870F455F5F4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='BarGraph' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='HighlightTables' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='PieChart' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAARWElEQVR4nO3daUxc572A8efMmRnALAEbDE4dLwRveMcE4zStQyqcYqmxoqpNHDtRFimp
+      1FSqolaq2n6rorZq1SbqrR3dLyVW06p2fa+XRNhOzcUJ8RJMTNgMGIMZGzDbMCwDM2fOcj+4
+      TGLZtYm3Mbz/3xesA4zeY+aZs8x7zmiO4zgIoSBN0zRXrAchRCxJAEJpEoBQmgQglCYBCKVJ
+      AEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQg
+      lCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJp
+      EoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYB
+      CKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQ
+      mgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJ
+      AEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQg
+      lCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJp
+      EoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYB
+      CKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQ
+      mgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmjvWA5hKTNOksrKSPXv2EAwGefLJJ9my
+      ZQtdXV2UlpbS1tZGTk4O3//+98nNzcXlkteX+53mOI4T60FMBbZtc/z4cfbv309RUREZGRn0
+      9fXx8MMPs2/fPubPn8/SpUtpaWnB7XZTUlJCQkJCTMfc39/PqVOnWLduHRkZGRw7dozf/e53
+      9PT0UFBQwC9/+Uvmzp0b0zHGkqZpmmwBJmlkZIRz586xefNmNm7ciKZpALS3t+NyuVi2bBm5
+      ubmsXr06xiP9gmmaBAIBTNOku7ubffv28Yc//IEFCxZQXl7OpUuXlA4AZBdo0kZHR7Esiwcf
+      fPCqXZusrCzS0tLYtWsXq1atYsWKFSxfvpz4+PgYjvZakUgEj8dDJBJB0zQ2b94cjVhlEsAk
+      2baNZVnXPGlmzJjBtm3bOHHiBB999BHNzc0EAgG++c1v4vF4YjTaa82ePZulS5fy7rvv8sAD
+      D7Bx40a+/vWv43ar/RRQe+2/gqSkJLxeL319feTk5Fy1FUhISOCJJ57gscce49SpU5w7d47R
+      0VHS0tJiOOKrzZgxg2effZaGhgbOnj3LwYMHSUxMJD8/P9ZDiykJYJKSk5PJyMjggw8+IDMz
+      kzlz5tDc3IzX68Xn87F69WrS09Pp7+/H7/ffd2eANE0jOTmZ9evXs27dOiorK2loaFA+gPvr
+      r3Qf03WdTZs2kZeXx6uvvkpRURHHjh1j1qxZdHd3s23bNgoLC6moqOC73/0uKSkpsR7yVTo6
+      OvjTn/5EdXU1DQ0NfPjhh6SmpsZ6WDEnp0GnscHBQerq6li+fDkej4e//e1vVFZWYlkWjz/+
+      OC+88ELMT9XGkqZpmgQglKVpmia7QEJpEoBQ2rQLwHEcLly4wEsvvcSaNWvYvHkz5eXlDA0N
+      8dvf/pZHHnmE/Px8fvKTn9Db2xvr4YoYm3anQUdGRti5cyff+c532LlzJ/39/UQiEerq6vD7
+      /Rw9ehRN06isrMQ0zVgPV8TYtAugra2NtLQ0tmzZgq7r0bkuvb29hEIhfD4fixcvpqSkZFKP
+      19HRwZ49ewiHw+i6zoYNGygsLCQuLo5IJEJ1dTXnz5+npKSEtLQ0Ojs7KS8vp6uri8zMzPvy
+      lKj4wrQLoKOjg7lz56Lr+lXLc3Nzyc3N5e233yYuLo7nnnuOgoKCm04FqK6upr+/n5UrV+Jy
+      uUhNTcXlcuE4DpcvX+bAgQO0t7dTWFiIx+Nh7969OI7DnDlzaG1tZf/+/Tz//PN3c5Wv0djY
+      yK5du3jmmWdYu3Ytfr+fnTt30tLSwqJFi9i6dSsLFy7E5/Pxm9/8hpGREQCKiop48cUXlZoe
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
